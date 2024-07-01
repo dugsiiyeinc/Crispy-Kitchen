@@ -222,7 +222,13 @@ header{
  .reviews h6{
     font-size:1.125rem ;
  }
-
+ .BigImg{
+    margin-top: 10rem;
+    height:31.25rem ;
+    background: url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/alex-haney-CAhjZmVk5H4-unsplash.jpg")top/cover no-repeat;
+    
+    background-attachment: fixed;
+ }
 
 
 @media (max-width:768px){
