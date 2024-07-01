@@ -118,6 +118,8 @@ header{
 }
 .reviews{
     display: flex;
+    align-items: center;
+    text-align: center;
     gap: 1rem;
 }
 .reviews h4{
@@ -126,7 +128,7 @@ header{
 }
  .review-icons i{
     font-size: 1.1rem;
-    margin-top: 0.8rem;
+ 
     color: #f3af24;
  }
  .right-content {
@@ -147,6 +149,8 @@ header{
  }
  .name-price h4{
     font-size: 24px;
+    line-height: inherit;
+    font-weight: 600;
  }
  .price{
     background-color: #fff;
@@ -157,6 +161,7 @@ header{
     text-align: center;
     line-height: 64px;
     font-size: 18px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.2);
  }
  .next-buttons{
     display: flex;
@@ -182,6 +187,41 @@ header{
 
  }
  
+ .special-menus{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+ }
+ .special-menus h2{
+    font-size: 3rem;
+    font-weight: 700;
+ }
+ .specialmenus-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+ }
+ .special-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+ }
+ .menu-tag{
+    background-color:#ffc107;
+    color: #fff;
+    position: absolute;
+    top: 3%;
+    right: 4%;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 14px;
+ }
+ .reviews h6{
+    font-size:1.125rem ;
+ }
 
 
 
@@ -241,6 +281,9 @@ header{
         font-size: 2.375rem;
         margin-bottom: 0.5rem;
     }
+    .specialmenus-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 
@@ -250,5 +293,11 @@ header{
     }
     .humburger i{
         font-size: 1.5rem;
+    }
+    .specialmenus-grid{
+        grid-template-columns: 1fr;
+    }
+    .special-menus h2{
+        font-size: 2rem;
     }
 }
