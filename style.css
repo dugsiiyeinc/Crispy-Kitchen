@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
+    background-color: #F9F9F9;
     font-family: "Montserrat", sans-serif;
 }
 img{
@@ -128,7 +128,6 @@ header{
 }
  .review-icons i{
     font-size: 1.1rem;
- 
     color: #f3af24;
  }
  .right-content {
@@ -148,19 +147,19 @@ header{
 
  }
  .name-price h4{
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: inherit;
     font-weight: 600;
  }
  .price{
     background-color: #fff;
     color: #f3af24;
-    width: 84px;
-    height: 64px;
-    border-radius: 100px;
+    width: 5.25rem;
+    height:4rem;
+    border-radius: 6.25rem;
     text-align: center;
-    line-height: 64px;
-    font-size: 18px;
+    line-height: 4rem;
+    font-size: 1.125rem;
     box-shadow: 1px 1px 20px rgba(0,0,0,0.2);
  }
  .next-buttons{
@@ -194,9 +193,10 @@ header{
     align-items: center;
     gap: 2rem;
  }
- .special-menus h2{
+ .head{
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
  }
  .specialmenus-grid{
     display: grid;
@@ -229,7 +229,83 @@ header{
     
     background-attachment: fixed;
  }
-
+ .news-events{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+ .grid-events-news{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+ .news-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+ }
+ 
+ .news{
+    height: 18rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: self-start;
+   padding: 2rem ;
+   gap: .5rem;
+   color: #fff;
+ }
+  h5{
+    font-size:1.625rem;
+    line-height:2rem;
+    font-weight: 500;
+ }
+ .news1{
+    grid-column: 1/span 2;
+    background: url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg") top/cover no-repeat;
+ }
+ .news2{
+    grid-column: 3/ -1;
+    background: url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg")center/cover no-repeat;
+ }
+ .tags{
+    background-color: #dc3545;
+    color: #fff;
+    padding: 0.5rem .8rem;
+    border-radius: 5px;
+    font-size: 14px;
+ }
+ .events-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+ }
+ .events{
+    display:  flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+ .event-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 2rem;
+ }
+ .event-info h5:hover{
+    color: #dc3545;
+ }
+ .tag-date{
+    display:  flex;
+    align-items: center;
+    gap: 1rem;
+ }
+ .tag3,.tag5{
+    background-color:#0dcaf0;
+ }
+.tag4{
+    background-color: #000;
+}
 
 @media (max-width:768px){
     .menu{
@@ -290,6 +366,18 @@ header{
     .specialmenus-grid{
         grid-template-columns: repeat(2,1fr);
     }
+    .news-grid{
+        grid-template-columns:1fr;
+    }
+    .news1{
+       grid-column: 1 /-1;
+    }
+    .news2{
+        grid-column: 1 /-1;
+    }
+    .events-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 
@@ -303,7 +391,10 @@ header{
     .specialmenus-grid{
         grid-template-columns: 1fr;
     }
-    .special-menus h2{
+    .special-menus h2,.news-events h2{
         font-size: 2rem;
     }
+    .events-grid{
+        grid-template-columns: 1fr;
+    } 
 }
