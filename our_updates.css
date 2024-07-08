@@ -16,8 +16,65 @@ img{
     width: min(90% ,1120px);
     margin-inline: auto;
 }
+header{
+    height: 5rem;
+    background-color: #fff;
+    cursor: pointer;
+   
+}
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h1{
+    font-size: 1.625rem;
+    font-weight: 700; 
+   
+}
+.menu h1:hover{
+    color: #f44749;
+}
+
+.menu-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.menu-links li{
+    list-style: none;
+}
+.menu-links li a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #717275;
+}
+.menu-links .active{
+    color: #f44749;
+   
+}
+.menu-links li a:hover{
+    color: #f44749;
+}
+.btn{
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 2rem;
+    color: white;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+}
+.btn:hover{
+    background-color:#c02e3d;
+}
+.humburger{
+    display: none;
+}
 .hero{
-    margin-top: 5rem;
+  
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/header/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg")center/cover no-repeat;
     height: 18.93rem;
     width: 100%;
@@ -35,10 +92,10 @@ img{
     color: #fff;
     gap: 1.5rem;
 }
- h1{
+h1{
     font-size: 3.5rem;
     line-height: 1.2rem;
-    margin-bottom: 1rem;
+    
 }
 .hero strong{
     font-size: 1.5rem;
@@ -127,16 +184,109 @@ img{
  .tag3,.tag5{
     background-color:#0dcaf0;
  }
+ footer{
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/daan-evers-tKN1WXrzQ3s-unsplash.jpg")center/cover no-repeat;
+  
+}
+.footer-site{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    gap: 5rem;
+}
+.footer-site h4{
+    font-size: 1.5rem;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-grid h6{
+    font-size:1.375rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.footer-grid p{
+    color: #AAA;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.footer-grid button{
+    background-color: #212529;
+    color: #AAA;
+    cursor: pointer;
+}
+.footer-grid button:hover{
+    color: #fff;
+    background-color: #212529;
+}
+.hover:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.media i{
+    color: #AAA;
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+    margin-right: .5rem;
+
+}
 
 
 @media (max-width:768px) {
+    .menu{
+        gap: 5px;
+       
+    }
+    .menu h1{
+        font-size: 2rem;
+    }
+    .btn{
+        margin-right: 10px;
+        padding-inline: 1.5rem;
+    }
+    .humburger{
+        display: block;
+    }
+    .humburger i{
+        font-size: 2rem;
+    }
+    .humburger i[data-visible="false"]{
+        display: none;
+    }
+    .humburger i[data-visible="true"]{
+        display: block;
+    }
+   
+    .menu-links{
+        background-color: #fff;
+        margin-top: 19rem;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content:first baseline;
+        align-items: start;
+        position:absolute;
+        left: 0;
+        right: 0;
+        z-index: 111;
+        padding: 2rem 3rem;
+        transition: transform 200ms ease-in-out ;
+    }
+    .menu-links[data-visible="false"]{
+        transform: translateY(-145%);
+    }
+   
     h1{
         font-size:2.375rem ;
         text-align: center;
     }
-    .hero-sec strong{
-        font-size: 1rem;
-        font-weight: 700;
+    strong{
+        font-size: .5rem;
+        font-weight: 600;
         text-align: center;
     }
     .last_update-grid{ 
@@ -146,18 +296,34 @@ img{
     .events-grid{
         grid-template-columns: repeat(2,1fr);
     }
+    footer{
+        height: 51.4375rem;
+    }
+    .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
 }
 @media (max-width:480px){
-   
-    .hero-sec strong{
-        font-size: 1rem;
-        font-weight: 700;
+    .menu h1{
+        font-size: 1.3rem;
     }
+    .humburger i{
+        font-size: 1.5rem;
+    }
+   
+   
    
     .news-events{
         height: 94.6875rem;
     }
     .events-grid{
         grid-template-columns: 1fr;
+    }
+    .footer-grid{
+        grid-template-columns: 1fr;
+    }
+    h5{
+        font-size: 1.25rem;
     }
 }
