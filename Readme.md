@@ -1,1 +1,3 @@
-I'm here broh, and I will do my part.
+# team members
+## Abdihaki Adan Abdi
+
