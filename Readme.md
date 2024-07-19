@@ -27,10 +27,11 @@ we are explaining here the structure of our project
   ## Technologies Used
 
   we used building this website
-  -- html for the structure of the webpage
-  -- css for style the webpages in the website
-  -- javaScript in the header section to hide and show the humbugger menu
-  --google fonts for using  the google fonts
+  - html for the structure of the webpage
+  - css for style the webpages in the website
+  - javaScript in the header section to hide and show the humbugger menu
+  - google fonts for using  the google fonts
+  - font awesome cdn for adding the icons 
 
   ## Setup and Installation
 
