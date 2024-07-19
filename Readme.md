@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
+
+=======
 # project Name : Crispy-Kitchen
 
 ## Project Overview
@@ -71,3 +74,4 @@ we are explaining here the structure of our project
 - we utilized the width and the height of the webpages to provide a quick way to finalize the project being responsive.
 - we used external font and font awesome features to make look better and social media icons.
 >>>>>>> 9379c07341586ed77c4091d24f3cc3bf4e872bf2
+>>>>>>> 417312036da00467e08a9cda942a28464da95142
