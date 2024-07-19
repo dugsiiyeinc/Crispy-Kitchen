@@ -1,7 +1,13 @@
 
 #  Crispy Kitchen
 
-Crispy Kitchen is a fictional restaurant that offers delicious steaks, special menus, and news & events updates. The website is built using HTML, CSS, and JavaScript.
+
+## Project Overview
+
+Crispy Kitchen is a modern and elegant restaurant websites designed to show
+case the restaurant's special menus, customer reviews, news & events, and contact information using html & css. The website uses responsive design, making it accessible and user-friendly on various devices.
+
+
 
 # Demo Live our Website is here:
 
