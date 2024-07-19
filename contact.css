@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Odor+Mean+Chey&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: min(90%, 1120px);
+  margin-inline: auto;
+}
+
+header {
+  height: 5rem;
+  background-color: #fff;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu h1 {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+.menu h1:hover {
+  color: #f44749;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.menu-links li {
+  list-style: none;
+}
+.menu-links li a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #717275;
+}
+.menu-links .active {
+  color: #f44749;
+}
+.menu-links li a:hover {
+  color: #f44749;
+}
+.btns {
+  background-color: #dc3545;
+  border: none;
+  padding: 10px 2rem;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+}
+.btns:hover {
+  background-color: #c02e3d;
+}
+.humburger {
+  display: none;
+}
+.contact_header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./imgs/contact_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.contact_header h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.contact_header p {
+  font-size: 28px;
+}
+.contact {
+  max-width: 1120px;
+  margin: 100px auto;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.contact-form label {
+  display: block;
+  font-size: 18px;
+  font-family: sans-serif;
+  opacity: 0.8;
+  margin: 5px 0px;
+}
+.sub-con {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form input,
+textarea {
+  padding: 15px;
+  outline: none;
+  margin: 10px 0px;
+  font-family: sans-serif;
+  border: 1px solid #d0cccc;
+
+  font-size: 18px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.contact-form input:focus,
+textarea:focus {
+  border: 2px solid rgba(132, 162, 192, 0.5);
+  box-shadow: 1px 1px 1px 1px rgb(117, 130, 171);
+}
+.contact h1 {
+  font-size: 4rem;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+.btn {
+  width: 100%;
+  text-align: right;
+}
+.btn input {
+  padding: 15px 50px;
+  background-color: #000;
+  font-family: sans-serif;
+  font-size: 22px;
+  width: 50%;
+  color: #fff;
+  border-radius: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.btn input:hover {
+  background-color: #f42020;
+  color: #fff;
+  cursor: pointer;
+}
+.working-time {
+  width: 40%;
+}
+.working-time h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.working-time .days,
+.ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  opacity: 0.6;
+  font-family: sans-serif;
+  margin: 20px 0px;
+}
+.map {
+  max-width: 1120px;
+  margin: 50px auto;
+}
+.map h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin: 20px 0px;
+}
+.map iframe {
+  width: 100%;
+}
+
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./imgs/footer_bg.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  width: 1020px;
+}
+.footer h1 {
+  margin-bottom: 50px;
+}
+.footer h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer p {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+}
+.footer p a {
+  text-decoration: none;
+  color: wheat;
+}
+.social ul li {
+  margin-top: 4px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.social ul li i {
+  font-size: 22px;
+}
+.loc button {
+  background-color: rgb(54, 54, 54);
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  color: #717070;
+  transition: all 0.5s linear;
+}
+.loc button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #969393;
+}
+.sub-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-content: center;
+
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    gap: 5px;
+  }
+  .menu h1 {
+    font-size: 2rem;
+  }
+  .btns {
+    margin-right: 10px;
+    padding-inline: 1.5rem;
+  }
+  .humburger {
+    display: block;
+  }
+  .humburger i {
+    font-size: 2rem;
+  }
+  .humburger i[data-visible="false"] {
+    display: none;
+  }
+  .humburger i[data-visible="true"] {
+    display: block;
+  }
+
+  .menu-links {
+    background-color: #fff;
+    margin-top: 19rem;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: first baseline;
+    align-items: start;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 111;
+    padding: 2rem 3rem;
+    transition: transform 200ms ease-in-out;
+  }
+  .menu-links[data-visible="false"] {
+    transform: translateY(-145%);
+  }
+
+  .contact_header h1 {
+    font-size: 30px;
+  }
+  .contact_header p {
+    font-size: 20px;
+  }
+  .contact {
+    max-width: 992px;
+    margin: 50px auto;
+  }
+  .contact h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .sub-con {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sub-con input {
+    width: 100%;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .btn input {
+    width: 100%;
+  }
+  .map {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .map h1 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 20px 0px;
+  }
+  .sub-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .menu h1 {
+    font-size: 1.3rem;
+  }
+  .humburger i {
+    font-size: 1.5rem;
+  }
+  .contact_header h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .sub-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
