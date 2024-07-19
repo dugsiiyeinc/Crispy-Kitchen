@@ -5,6 +5,10 @@
 Crispy Kitchen is a modern and elegant restaurant website designed to show
 case the restaurant's special menus, customer reviews, news & events, and contact information. The website uses responsive design, making it accessible and user-friendly on various devices.
 
+# Demo Live our Website is here:
+
+- [Look at](https://crispy-kitchen-to87.vercel.app/)
+
 ## Team Members
 
 - Abdihakiim Adam Abdi
@@ -50,7 +54,7 @@ we are explaining here the structure of our project
 
   ### clone the reposit by running
 
-  -- [git clone](https://github.com/dugsiiyeinc/Crispy-Kitchen.git)
+  -- git clone: (https://github.com/dugsiiyeinc/Crispy-Kitchen.git)
 
   ### Navigate to the project directory:
 
