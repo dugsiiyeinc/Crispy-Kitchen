@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 # project Name : Crispy-Kitchen
 
 ## Project Overview
@@ -67,3 +70,4 @@ we are explaining here the structure of our project
 - we make our project responsive using css flexbox and grid templates
 - we utilized the width and the height of the webpages to provide a quick way to finalize the project being responsive.
 - we used external font and font awesome features to make look better and social media icons.
+>>>>>>> 9379c07341586ed77c4091d24f3cc3bf4e872bf2
