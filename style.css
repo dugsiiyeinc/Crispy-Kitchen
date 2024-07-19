@@ -343,7 +343,7 @@ footer{
 .footer-grid button{
     background-color: #212529;
     color: #AAA;
-    curser:pointer;
+    cursor:pointer;
 }
 .footer-grid button:hover{
     color: #fff;
