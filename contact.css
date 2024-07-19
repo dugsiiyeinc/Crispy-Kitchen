@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Odor+Mean+Chey&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -191,7 +191,7 @@ textarea:focus {
 }
 
 footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./imgs/footer_bg.jpg);
   height: 90vh;
   background-position: center;
@@ -216,31 +216,44 @@ footer {
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
   margin-bottom: 10px;
+  color: #AAA;
 }
 .footer p a {
   text-decoration: none;
-  color: wheat;
+  color: #AAA;
 }
-.social ul li {
+.social ul {
+  display: flex;
+  gap: 1rem;
+  
+}
+.social ul li{
+  list-style: none;
+}
+.social ul li i {
+
+  color: #AAA;
+  font-size: 22px;
   margin-top: 4px;
   list-style-type: none;
   cursor: pointer;
+
 }
-.social ul li i {
-  font-size: 22px;
+.social ul li i:hover{
+  color: #fff;
 }
 .loc button {
-  background-color: rgb(54, 54, 54);
+  background-color: #212529;
   padding: 15px 40px;
   font-size: 18px;
   border: none;
-  color: #717070;
+  color: #AAA;
   transition: all 0.5s linear;
 }
 .loc button:hover {
   color: #fff;
   cursor: pointer;
-  background-color: #969393;
+  
 }
 .sub-footer {
   display: grid;
