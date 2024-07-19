@@ -1,50 +1,28 @@
-<<<<<<< HEAD
 
-=======
-# project Name : Crispy-Kitchen
+#  Crispy Kitchen
 
-## Project Overview
-
-Crispy Kitchen is a modern and elegant restaurant website designed to show
-case the restaurant's special menus, customer reviews, news & events, and contact information. The website uses responsive design, making it accessible and user-friendly on various devices.
+Crispy Kitchen is a fictional restaurant that offers delicious steaks, special menus, and news & events updates. The website is built using HTML, CSS, and JavaScript.
 
 # Demo Live our Website is here:
 
-- [Look at](https://crispy-kitchen-to87.vercel.app/)
+- [Check out the live demo:](https://crispy-kitchen-to87.vercel.app/)
 
 ## Team Members
 
 - Abdihakiim Adam Abdi
 - Sulieman Mohamed Abdirahman
-- Fadumo Ahmed
+- Fadumo Ahmed Osman
 
 ## Project Structure
 
 we are explaining here the structure of our project
 
 ## pages
-
-- ### Home page
-  -- in this page we have explored alot of things like
-  --- background video
-  --- header
-  --- main menu
-  --- the new menu
-  --- footer
-- ### Story page
-  -- in this page we have admintted some staffs like
-  --- the story of our web page
-  --- our team members
-- ### Menu page
-  -- this is where we display our all menues whether
-  --- breakfast meal
-  --- luncch meal
-  --- dinner meal
-- ### Our updates page
-  -- it isintended to present the news and the updates of the webpage.
-- ### Contact page
-
-  -- we proved here a place where other customer can message us and can know there feedback.
+- A homepage with an introduction to the restaurant.
+- A menu page displaying the available dishes.
+- Story page displaying for member and manegers
+- A our-updates page for letest news related for resturant
+- A contact page for customers to get in touch.
 
   ## Technologies Used
 
@@ -52,6 +30,7 @@ we are explaining here the structure of our project
   -- html for the structure of the webpage
   -- css for style the webpages in the website
   -- javaScript in the header section to hide and show the humbugger menu
+  --google fonts for using  the google fonts
 
   ## Setup and Installation
 
@@ -67,7 +46,8 @@ we are explaining here the structure of our project
 
 ## Features
 
-- we make our project responsive using css flexbox and grid templates
-- we utilized the width and the height of the webpages to provide a quick way to finalize the project being responsive.
-- we used external font and font awesome features to make look better and social media icons.
->>>>>>> 9379c07341586ed77c4091d24f3cc3bf4e872bf2
+- Responsive Navigation: A user-friendly navigation menu to easily access different sections of the website.
+- Special Menus: Displays the restaurant's special menus for breakfast, lunch, and dinner along with     prices and customer reviews.
+- News & Events: Provides updates on the latest news and events related to the restaurant.
+- Contact Information: Shows the restaurant's address, opening hours, and contact details.
+- Social Links: Connects users to the restaurant's social media profiles.
