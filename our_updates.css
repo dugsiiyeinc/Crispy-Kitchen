@@ -119,7 +119,7 @@ h1{
    justify-content: end;
    align-items: self-start;
    padding: 2rem ;
-   gap: .5rem;
+   gap: 5rem;
    color: #fff;
  }
   h5{
@@ -147,7 +147,7 @@ h1{
  .flex-events-news{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
  }
  
  .tags{
