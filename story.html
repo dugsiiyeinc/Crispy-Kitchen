@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="menu container">
+            <div class="humburger">
+                <i class="fa fa-bars" data-visible="true"></i>
+                <i class="fa fa-close" data-visible="false"></i>
+            </div>
+            <h1>Crispy Kitchen</h1>
+            <ul class="menu-links" data-visible="false" >
+                <li ><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./story.html">Story</a></li>
+                <li><a href="./Menu.html">Menu</a></li>
+                <li><a href="./our_updates.html">Our Updates</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <button class="btns">Reservation</button>
+        </nav>
+    </header>
+    <section class="Hero">
+
+        <div class="container Hero">
+            <h1>Kitchen's Story</h1>
+            <strong>this is how our kitchen evolved in new digital era</strong>
+    
+        </div>
+        </section>
+    
+     <section class="container Story">
+
+      <div class="grid-container">
+        <div class="Story-left">
+        <h4>Crispy Kitchen is the latest Bootstrap<br> 5 HTML template provided by<br> Tooplate website.</h4>
+        <div class="New">
+            <span class="Out">Check Out News</span>
+
+            <span class="say">Say Hi</span>
+        </div>
+    </div>
+        
+    <div class="Story-right">
+        <p>Since this website template is 100% free to use, you can edit and apply it for your commercial restaurant websites. There are 6 HTML pages included in this template. Please <strong>click "Reservation" button</strong> on the top right to see the pop-up reservation form.</p>
+
+           <p>
+            You are NOT allowed to redistribute the template ZIP file on  any template donwnload website. Please <a class="active">contact</a> us for more information.
+           </p> 
+    </div>
+        
+
+        </div>
+         
+    
+        
+        </section>
+        
+        <section class="Member">
+            <div class="container">
+                <h1>Team Members</h1>
+            <div class="container-member">
+                
+                <div class="Member-items item1">
+                    <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" alt="">
+                    <div class="member-info">
+                        <h4>Sophia</h4>
+                        <p>CEO & Founder</p>
+                    </div>
+            
+                      
+                </div>
+                <div class="Member-items item2">
+                    <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg" alt="">
+                    <div class="member-info">
+                        <h4>Benjamin W.</h4>
+                        <p>Restaurant Manager</p>
+                     </div>
+                
+        
+                  </div>
+                <div class="Member-items item2">
+                    <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="">
+                    <div class="member-info">
+                        <h4>Benjamin W.</h4>
+                        <p>Restaurant Manager</p>
+                     </div>
+                
+        
+                  </div>
+        
+           </section>
+
+           <section class="container content">
+            <div class="content-container">
+                <div class="contact-items item1">
+
+                <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg" alt="">
+
+            </div>
+                <div class="contact-items item2">
+                  <h4>Our Newsletter</h4>
+                  <p>The food news every day</p>
+                   
+                    <form action="form">
+                        <input type="Email" id="Email" name="email" placeholder="Your Email Address">
+                        <button class="btn">SUBSCRIBE</button>
+                    </form>
+                    
+                <div>
+                    <small>By signing up, you agree to our Privacy Notice and the data polic</small>
+                </div>
+                 
+
+            </div>
+            
+
+            
+
+            </div>
+           
+         </div>
+
+           </section>
+
+           <footer>
+            <div class="container Crispy">
+        
+                <h4>Crispy Kitchen</h4>
+        
+            <div class="container-loccation">
+                <div class="Crispy-items item1">
+                    <h6>Location</h6>
+                    <div class="Info-item">
+                        <p>121 Einstein Loop N, Bronx, NY 10475,<br> United States</p>
+                        <button class="btn">Directions</button>
+        
+                    </div>
+        
+                </div>
+                <div class="Crispy-items item1">
+                    <h6>Opening Hours</h6>
+                    <div class="Info-item">
+                    <p>Monday - Friday</p>
+                    <p>10:00 AM - 08:00 PM</p>
+                    <p>Tel: 010-02-0340</p>
+                        
+        
+                    </div>
+        
+                </div>
+                <div class="Crispy-items item1">
+                    <h6>social</h6>
+                     <div class="social">
+                      <i class="fa fa-facebook"></i>
+                      <i class="fa fa-instagram"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-youtube"></i>
+                     
+                      
+                    </div>
+                    <div class="Info-item">
+                        <p>Copyright © 2022 Crispy Kitchen Co., Ltd.</p>
+                        <p>Design: Tooplate</p>
+                    </div>
+                     
+                </div>
+        
+            </div>
+        
+          </div>
+           </footer>
+
+           <script>
+            let navbar=document.querySelector(".menu-links")
+            let humbergur=document.querySelector(".humburger")
+            let icons=document.querySelectorAll("i")
+        
+            humbergur.addEventListener('click', function(event){
+               let isvible=navbar.getAttribute('data-visible');
+                if(isvible == 'true'){
+                    navbar.setAttribute('data-visible','false');
+                    icons[0].setAttribute('data-visible','true');
+                    icons[1].setAttribute('data-visible','false')
+                }
+                else
+                {
+                    navbar.setAttribute('data-visible','true');
+                    icons[0].setAttribute('data-visible','false');
+                    icons[1].setAttribute('data-visible','true')
+                }
+            })
+        </script>
+</body>
+</html>

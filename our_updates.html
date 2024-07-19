@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Kitchen - News updates</title>
+    <link rel="stylesheet" href="./our_updates.css"">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <header>
+        <nav class="menu container">
+            <div class="humburger">
+                <i class="fa fa-bars" data-visible="true"></i>
+                <i class="fa fa-close" data-visible="false"></i>
+            </div>
+            <h1>Crispy Kitchen</h1>
+            <ul class="menu-links" data-visible="false" >
+                <li ><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./story">Story</a></li>
+                <li><a href="./Menu.html">Menu</a></li>
+                <li><a href="./our_updates.html">Our Updates</a></li>
+                <li><a href="./contact">Contact</a></li>
+            </ul>
+            <button class="btn">Reservation</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-info container">
+            <h1>News & Events</h1>
+            <strong>our latest updates, news, events and special promotions</strong>
+    
+        </div>
+      
+    </section>
+
+    <section class=" letest-updates container">
+        <h1>Latest Updates </h1>
+     
+            
+            <div class="last_update-grid">
+                <div class="last_update update1">
+                    <span class="tags tag1">Featured</span>
+                    <h5 class="news-title">Healthy Lifestyle and happy living tips</h5>
+                </div>
+                <div class="last_update update1">
+                    <span class="tags tag2">Featured</span>
+                    <h5 class="news-title">How to make a healthy meal</h5>
+            </div>
+        </div>
+    </section>
+    <section class="news-events">
+       
+        <div class="flex-events-news container">
+            <h1>News & Events</h1>
+            
+            <div class="events-grid">
+                <div class="events event1">
+                    <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" alt="event1-Img">
+                    <div class="event-info">
+                        <div class="tag-date">
+                            <span class="tags tag3">Promotions</span>
+                            <strong> 12 April 2022</strong>
+                            
+                        </div>
+                        <h5>Is Coconut good for you?</h5>
+                       
+                    </div>
+                </div>
+                <div class="events event2">
+                    <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" alt="event2-Img">
+                    <div class="event-info">
+                        <div class="tag-date">
+                            <span class="tags tag3">career</span>
+                            <strong> 18 April 2022</strong>
+                
+                        </div>
+                        <h5>How to run a sushi business?
+                        </h5>
+                       
+                    </div>
+                </div>
+                <div class="events event3">
+                    <img src="https://www.tooplate.com/templates/2129_crispy_kitchen/images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" alt="event3-Img">
+                    <div class="event-info">
+                        <div class="tag-date">
+                            <span class="tags tag5">Meeting</span>
+                            <strong> 30 April 2022</strong>
+                        </div>
+                        <h5>Learning a fine dining experience</h5>
+                       
+                    </div>
+                </div>
+
+            </div>
+           
+
+        </div>
+    </section>
+    <footer >
+        <div class="footer-site container">
+              <h4>Crispy Kitchen</h4>
+              <div class="footer-grid ">
+                  <div class="location">
+                      <h6>Location</h6>
+                      <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                      <button class="btn">Directions</button>
+                  </div>
+                  <div class="opening-hours">
+                      <h6>Opening hours</h6>
+                      <p>Monday - Friday</p>
+                      <p>10:00 AM - 08:00 PM</p>
+                      <p>Tel: <a class="hover">010-02-0340</a></p>
+                  </div>
+                  <div class="social">
+                      <h6>social</h6>
+                      <div class="media">
+                          <i class="fa fa-facebook"></i>
+                          <i class="fa fa-instagram"></i>
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-youtube"></i>
+                      </div>
+                      <p>Copyright © 2022 Crispy Kitchen Co., <br>
+                          Ltd.</p>
+                      <p>Design: <a class="hover">Team 1 of group D</a> </p>
+                  </div>
+              </div>
+        </div>
+      </footer>
+    <script>
+        let navbar=document.querySelector(".menu-links")
+        let humbergur=document.querySelector(".humburger")
+        let icons=document.querySelectorAll("i")
+    
+        humbergur.addEventListener('click', function(event){
+           let isvible=navbar.getAttribute('data-visible');
+            if(isvible == 'true'){
+                navbar.setAttribute('data-visible','false');
+                icons[0].setAttribute('data-visible','true');
+                icons[1].setAttribute('data-visible','false')
+            }
+            else
+            {
+                navbar.setAttribute('data-visible','true');
+                icons[0].setAttribute('data-visible','false');
+                icons[1].setAttribute('data-visible','true')
+            }
+        })
+    </script>
+</body>
+</html>
