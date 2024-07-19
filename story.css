@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;    
+}
+.container{
+    width: min(90%, 1120px);
+    margin-inline: auto;   
+}
+
+header{
+    height: 5rem;
+    background-color: #fff;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+   
+}
+.menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu h1{
+    font-size: 1.625rem;
+    font-weight: 700; 
+}
+.menu h1:hover{
+    color: #f44749;
+}
+
+.menu-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.menu-links li{
+    list-style: none;
+}
+.menu-links li a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #717275;
+}
+.menu-links .active{
+    color: #f44749;
+   
+}
+.menu-links li a:hover{
+    color: #f44749;
+}
+.btns{
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 2rem;
+    color: white;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+}
+.btns:hover{
+    background-color:#c02e3d;
+}
+.humburger{
+    display: none;
+}
+.Hero{
+    height: calc(85vh - 4.5rem);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    
+
+}
+
+.Hero h1{
+    font-size: 3.875rem;
+    font-weight: 700;
+    color: white;
+    
+}
+.Hero strong{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700; 
+}
+.Story{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10rem;
+    
+}
+
+.grid-container{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-container h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.grid-container p{
+    font-size: 1.125rem;
+    color: #717275;
+    font-weight: 300;
+    
+}
+.Story-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+strong{
+    font-weight: 700;
+}
+.Story-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.active{
+    color: #f3af24;
+    font-size: 1.125rem;
+}
+.New{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: self-start;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.125rem;
+
+}
+.Out{
+    background-color: #212529;
+    font-size: 1.125rem;
+    padding: 0.625rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.say{
+    display: flex;
+    background-color: #DC3545;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-top: -0.02rem;
+    padding: 0.625rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.Member{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    height: 49.06125rem;
+    margin-top: 10rem;
+}
+.Member h1{
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+.member-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+.member-info h4{
+    font-size: 1.5rem;
+}
+.member-info p{
+    color: #717275;
+    font-size: 1.125rem;
+}
+.Member-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container-member{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+img{
+    width: 100%;
+}
+.Member img{
+    margin-top: 4rem;
+}
+.content{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+.content-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    gap: 4rem;
+}
+.content img{
+    width: 100%;
+    border-radius: 100%;
+}
+.contact-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.contact-items h4{
+    font-size: 2rem;
+}
+.contact-items p{
+   font-size: 1.125rem;
+   color: #717275;
+}
+form .btn, input{
+    width: 90%;
+   
+    padding: 0.625rem 0.875rem;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+small{
+    color: #212529;
+    font-size: 0.875rem;
+    width: 80%;
+}
+footer{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/daan-evers-tKN1WXrzQ3s-unsplash.jpg") center / cover no-repeat;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.Crispy{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.Crispy h4 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.container-loccation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.Crispy-items{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: self-start;
+}
+.Crispy-items h6{
+    font-size: 1.125rem; 
+    color: #ffffff;
+
+}
+.Info-item p{
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #AAAAAA;
+}
+
+.Info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 1rem;
+    
+}
+.btn{
+    color: #AAAAAA;
+    background-color: #212529;
+    font-size: 1.125rem;
+    padding: 0.625rem 2.1875rem;
+    border: none;
+    cursor: pointer;
+    align-items: self-start;
+    
+}
+.btn:hover{
+    color: #ffffff;
+}
+.social{
+    color: #AAAAAA;
+     gap: 2rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu{
+        gap: 5px;
+    }
+    .menu h1{
+        font-size: 2rem;
+    }
+    .btns{
+        margin-right: 10px;
+        padding-inline: 1.5rem;
+    }
+    .humburger{
+        display: block;
+    }
+    .humburger i{
+        font-size: 2rem;
+    }
+    .humburger i[data-visible="false"]{
+        display: none;
+    }
+    .humburger i[data-visible="true"]{
+        display: block;
+    }
+   
+    .menu-links{
+        background-color: #fff;
+        margin-top: 19rem;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content:first baseline;
+        align-items: start;
+        position:absolute;
+        left: 0;
+        right: 0;
+        z-index: 111;
+        padding: 2rem 3rem;
+        transition: transform 200ms ease-in-out ;
+    }
+    .menu-links[data-visible="false"]{
+        transform: translateY(-145%);
+    }
+
+    .Hero h1{
+        font-size: 2.375rem;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .Member{
+        height: 109.1875rem;
+    }
+    .container-member{
+     grid-template-columns: 1fr;
+    }
+    .content-container{
+        grid-template-columns: 1fr;
+    }
+    .container-loccation{
+        grid-template-columns: 1fr;
+    }
+    form .btn, input{
+        width: 100%;
+    }
+    footer{
+        height: 53.125rem;
+    }
+}
+
+@media (max-width:480px){
+    .menu h1{
+        font-size: 1.3rem;
+    }
+    .humburger i{
+        font-size: 1.5rem;
+    }
+   
+}
