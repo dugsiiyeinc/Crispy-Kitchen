@@ -40,7 +40,7 @@ we are explaining here the structure of our project
 
   ### Navigate to the project directory:
 
-  - cd project-directory
+  - cd crispy-kitchen
 
   ### Open the index.html file in a browser.
 
