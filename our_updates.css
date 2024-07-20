@@ -22,11 +22,11 @@ header{
     cursor: pointer;
    
 }
-.menu{
+.menu {
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .menu h1 a{
     font-size: 1.625rem;
@@ -95,7 +95,7 @@ header{
     color: #fff;
     gap: 1.5rem;
 }
-h1{
+.hero-info h1{
     font-size: 3.5rem;
     line-height: 1.2rem;
     
