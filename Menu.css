@@ -28,11 +28,13 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.menu h1{
+.menu h1 a{
     font-size: 1.625rem;
     font-weight: 700; 
+    text-decoration: none;
+    color: #000;
 }
-.menu h1:hover{
+.menu h1 a:hover{
     color: #f44749;
 }
 
@@ -65,6 +67,7 @@ header{
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.125rem;
+    cursor: pointer;
 }
 .btns:hover{
     background-color:#c02e3d;
@@ -258,7 +261,7 @@ footer{
     .menu{
         gap: 5px;
     }
-    .menu h1{
+    .menu h1 a{
         font-size: 2rem;
     }
     .btns{
@@ -325,7 +328,7 @@ footer{
 }
 
 @media (max-width:480px){
-    .menu h1{
+    .menu h1 a{
         font-size: 1.3rem;
     }
     .humburger i{

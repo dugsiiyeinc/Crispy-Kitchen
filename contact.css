@@ -27,11 +27,13 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.menu h1 {
+.menu h1 a{
   font-size: 1.625rem;
   font-weight: 700;
+  color: #000;
+  text-decoration: none;
 }
-.menu h1:hover {
+.menu h1 a:hover {
   color: #f44749;
 }
 
@@ -63,6 +65,7 @@ header {
   font-weight: 400;
   line-height: 1.5rem;
   font-size: 1.125rem;
+  cursor: pointer;
 }
 .btns:hover {
   background-color: #c02e3d;
@@ -189,85 +192,67 @@ textarea:focus {
 .map iframe {
   width: 100%;
 }
-
-footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./imgs/footer_bg.jpg);
+footer{
+  margin-top: 10rem;
   height: 90vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("https://www.tooplate.com/templates/2129_crispy_kitchen/images/daan-evers-tKN1WXrzQ3s-unsplash.jpg")center/cover no-repeat;
+
+}
+.footer-site{
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-.footer {
-  width: 1020px;
-}
-.footer h1 {
-  margin-bottom: 50px;
-}
-.footer h2 {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-.footer p {
-  font-size: 18px;
-  font-family: "Courier New", Courier, monospace;
-  margin-bottom: 10px;
-  color: #AAA;
-}
-.footer p a {
-  text-decoration: none;
-  color: #AAA;
-}
-.social ul {
-  display: flex;
-  gap: 1rem;
-  
-}
-.social ul li{
-  list-style: none;
-}
-.social ul li i {
-
-  color: #AAA;
-  font-size: 22px;
-  margin-top: 4px;
-  list-style-type: none;
-  cursor: pointer;
-
-}
-.social ul li i:hover{
   color: #fff;
+  gap: 5rem;
 }
-.loc button {
-  background-color: #212529;
-  padding: 15px 40px;
-  font-size: 18px;
-  border: none;
-  color: #AAA;
-  transition: all 0.5s linear;
+.footer-site h4{
+  font-size: 1.5rem;
 }
-.loc button:hover {
-  color: #fff;
-  cursor: pointer;
-  
-}
-.sub-footer {
+.footer-grid{
   display: grid;
-  grid-template-columns: repeat(3, 33%);
-  justify-content: center;
+  grid-template-columns: repeat(3,1fr);
+}
+.footer-grid h6{
+  font-size:1.375rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.footer-grid p{
+  color: #AAA;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.footer-grid button{
+  background-color: #212529;
+  color: #AAA;
+  cursor:pointer;
+  border: none;
+  padding: 10px 2rem;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  
+}
+.footer-grid button:hover{
+  color: #fff;
+  background-color: #212529;
+}
+.media i{
+  color: #AAA;
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
 
-  align-items: center;
 }
 
 @media (max-width: 768px) {
   .menu {
     gap: 5px;
   }
-  .menu h1 {
+  .menu h1 a{
     font-size: 2rem;
   }
   .btns {
@@ -335,6 +320,9 @@ footer {
   .btn input {
     width: 100%;
   }
+  .working-time {
+    width: 80%;
+  }
   .map {
     width: 100%;
     margin: 50px auto;
@@ -342,15 +330,17 @@ footer {
   .map h1 {
     font-size: 1.5rem;
     font-family: sans-serif;
-    margin: 20px 0px;
+    margin: 20px 10px;
   }
-  .sub-footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+  footer{
+    height: 51.4375rem;
+}
+.footer-grid{
+    grid-template-columns: repeat(2,1fr);
+}
 }
 @media (max-width: 480px) {
-  .menu h1 {
+  .menu h1 a{
     font-size: 1.3rem;
   }
   .humburger i {
@@ -361,8 +351,10 @@ footer {
     text-transform: uppercase;
     margin-bottom: 5px;
   }
-  .sub-footer {
-    display: grid;
+  .footer-grid{
     grid-template-columns: 1fr;
-  }
+}
+h5{
+    font-size: 1.25rem;
+}
 }
